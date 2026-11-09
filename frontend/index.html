@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chatbot Akademik | Teknik Informatika</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="top">
+        <div class="logo">AI</div>
+        <div>
+          <h1>Asisten Akademik</h1>
+          <p>Program Studi Teknik Informatika</p>
+        </div>
+        <span class="status">● Online lokal</span>
+      </header>
+      <section class="intro">
+        <span class="eyebrow">LAYANAN AKADEMIK</span>
+        <h2>Halo, mahasiswa!</h2>
+        <p>
+          Ada yang bisa saya bantu? Tanyakan informasi akademik program studi.
+        </p>
+        <div class="quick">
+          <button data-question="Bagaimana cara mengurus KRS?">
+            Pengurusan KRS
+          </button>
+          <button data-question="Bagaimana prosedur tugas akhir?">
+            Tugas akhir
+          </button>
+          <button data-question="Di mana saya mendapatkan informasi kurikulum?">
+            Kurikulum
+          </button>
+        </div>
+      </section>
+      <section id="messages" class="messages" aria-live="polite">
+        <div class="bubble bot">
+          Selamat datang! Saya asisten virtual layanan akademik. Silakan
+          tuliskan pertanyaan Anda.
+        </div>
+      </section>
+      <form id="chat-form" class="composer">
+        <input
+          id="message"
+          autocomplete="off"
+          placeholder="Tulis pertanyaan akademik..."
+          maxlength="2000"
+          required
+        />
+        <button id="send" type="submit">Kirim</button>
+      </form>
+      <footer>
+        Informasi chatbot harus diverifikasi melalui kanal resmi program studi.
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
