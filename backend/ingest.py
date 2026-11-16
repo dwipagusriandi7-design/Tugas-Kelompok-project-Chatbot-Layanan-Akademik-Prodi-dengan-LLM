@@ -1,44 +1,40 @@
-"""Bangun indeks TF-IDF dari dokumen .txt, .md, dan .pdf."""
+"""Periksa (lint) knowledge base: python -m backend.ingest [--include-draft]
+
+Indeks dibangun otomatis saat server start, jadi perintah ini hanya melaporkan isi KB
+dan memperingatkan masalah (placeholder, PDF scan, FAQ belum terverifikasi).
+"""
+import argparse
+import sys
 from pathlib import Path
 
-from pypdf import PdfReader
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-if __package__:
-    from .retrieval import build_index, save_index
-else:
-    from retrieval import build_index, save_index
+from backend import config
+from backend.knowledge_base import KnowledgeBase
 
-BASE = Path(__file__).resolve().parent
-DOCS = BASE / "data" / "dokumen"
-DOCS.mkdir(parents=True, exist_ok=True)
-
-def read_file(path: Path) -> str:
-    if path.suffix.lower() == ".pdf":
-        return "\n".join(page.extract_text() or "" for page in PdfReader(str(path)).pages)
-    return path.read_text(encoding="utf-8", errors="ignore")
-
-def chunks(text: str, size: int = 900, overlap: int = 120):
-    text = " ".join(text.split())
-    start = 0
-    while start < len(text):
-        yield text[start:start + size]
-        start += size - overlap
 
 def main():
-    documents, metadatas = [], []
-    for path in DOCS.rglob("*"):
-        if path.is_file() and path.suffix.lower() in {".txt", ".md", ".pdf"}:
-            content = read_file(path)
-            for index, chunk in enumerate(chunks(content)):
-                if chunk.strip():
-                    documents.append(chunk)
-                    metadatas.append({"source": path.name, "chunk": index})
-    if not documents:
-        print("Belum ada dokumen. Tambahkan file PDF/TXT/MD ke backend/data/dokumen.")
-        return
-    index = build_index(documents, metadatas)
-    save_index(index, BASE / "data" / "tfidf_index.joblib")
-    print(f"Berhasil membangun indeks TF-IDF dari {len(documents)} potongan dokumen.")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--include-draft", action="store_true")
+    ap.add_argument("--demo", action="store_true", help="periksa folder demo/ (data fiktif)")
+    ap.add_argument("--faq", type=Path, default=config.FAQ_PATH)
+    ap.add_argument("--docs", type=Path, default=config.DOCS_DIR)
+    a = ap.parse_args()
+    if a.demo:
+        a.faq, a.docs = config.ROOT / "demo" / "faq.json", config.ROOT / "demo" / "dokumen"
+    r = KnowledgeBase.load(a.faq, a.docs, a.include_draft).report
+    print(f"FAQ dimuat        : {r.faq_loaded}")
+    for eid, why in r.faq_skipped:
+        print(f"  - dilewati {eid}: {why}")
+    print(f"File diindeks     : {len(r.files_indexed)} {r.files_indexed}")
+    print(f"File dilewati     : {r.files_skipped}")
+    print(f"Chunk diindeks    : {r.chunks} (dibuang karena placeholder: {r.chunks_placeholder})")
+    for w in r.warnings:
+        print("PERINGATAN:", w)
+    if r.faq_loaded == 0 and r.chunks == 0:
+        print("\nKB kosong: semua pertanyaan akan ditolak. Isi data resmi dulu (lihat docs/KB_GUIDE.md).")
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "krs-cara",
+    "question": "Bagaimana cara mengisi KRS?",
+    "variants": [
+      "prosedur pengisian KRS",
+      "kapan dan di mana KRS diisi"
+    ],
+    "answer": "[ISI jawaban resmi dari dokumen prodi]",
+    "source": "[ISI nama dokumen resmi, mis. Pedoman Akademik 2024 hlm. 12]",
+    "status": "draft",
+    "verified_by": "",
+    "verified_at": ""
+  },
+  {
+    "id": "jam-layanan",
+    "question": "Jam berapa layanan administrasi prodi buka?",
+    "variants": [
+      "jam operasional tata usaha prodi",
+      "kapan admin prodi bisa ditemui"
+    ],
+    "answer": "[ISI jawaban resmi dari dokumen prodi]",
+    "source": "[ISI sumber resmi]",
+    "status": "draft",
+    "verified_by": "",
+    "verified_at": ""
+  },
+  {
+    "id": "matkul-[prodi]-[angkatan]",
+    "prodi": "[ISI Informatika/PTI/PTE/TRSE]",
+    "angkatan": "[ISI mis. 2025]",
+    "question": "Apa saja mata kuliah semester ini untuk [prodi] angkatan [angkatan]?",
+    "variants": [
+      "[ISI variasi pertanyaan]"
+    ],
+    "answer": "[ISI jawaban resmi dari dokumen prodi]",
+    "source": "[ISI sumber resmi]",
+    "status": "draft",
+    "verified_by": "",
+    "verified_at": ""
+  }
+]

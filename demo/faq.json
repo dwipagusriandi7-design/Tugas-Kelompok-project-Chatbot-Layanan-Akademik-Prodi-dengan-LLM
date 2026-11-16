@@ -1,0 +1,363 @@
+[
+  {
+    "id": "krs-cara",
+    "question": "Bagaimana cara mengisi KRS?",
+    "variants": [
+      "prosedur pengisian KRS",
+      "di mana KRS diisi",
+      "tahapan isi KRS"
+    ],
+    "answer": "[DATA DEMO] KRS diisi melalui portal akademik pada periode pengisian KRS yang tercantum di kalender akademik.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "krs-ubah",
+    "question": "Bagaimana cara mengubah atau membatalkan mata kuliah di KRS?",
+    "variants": [
+      "revisi KRS",
+      "tambah atau drop mata kuliah",
+      "ubah KRS setelah disetujui"
+    ],
+    "answer": "[DATA DEMO] Perubahan KRS dilakukan pada masa revisi melalui portal akademik dan perlu persetujuan pembimbing akademik.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "cuti",
+    "question": "Bagaimana cara mengajukan cuti akademik?",
+    "variants": [
+      "prosedur cuti kuliah",
+      "mau cuti semester",
+      "syarat cuti akademik"
+    ],
+    "answer": "[DATA DEMO] Cuti akademik diajukan melalui portal akademik sebelum batas waktu yang ditetapkan kalender akademik.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "jam-layanan",
+    "question": "Jam berapa layanan administrasi prodi buka?",
+    "variants": [
+      "jam operasional admin prodi",
+      "kapan tata usaha prodi buka",
+      "hari layanan prodi"
+    ],
+    "answer": "[DATA DEMO] Layanan administrasi prodi buka Senin sampai Jumat pukul 08.00-15.00.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "lokasi-tu",
+    "question": "Di mana ruang tata usaha prodi?",
+    "variants": [
+      "lokasi kantor admin prodi",
+      "ruang TU prodi di lantai berapa"
+    ],
+    "answer": "[DATA DEMO] Ruang tata usaha prodi berada di Gedung Demo lantai 2.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "syarat-ta",
+    "question": "Apa syarat mengambil tugas akhir?",
+    "variants": [
+      "syarat skripsi",
+      "persyaratan tugas akhir",
+      "kapan boleh ambil skripsi"
+    ],
+    "answer": "[DATA DEMO] Syarat mengambil tugas akhir mengikuti Pedoman Tugas Akhir prodi, termasuk jumlah SKS minimum yang ditetapkan.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "dosen-pa",
+    "question": "Bagaimana mengetahui dosen pembimbing akademik saya?",
+    "variants": [
+      "siapa dosen PA saya",
+      "cek pembimbing akademik"
+    ],
+    "answer": "[DATA DEMO] Nama dosen pembimbing akademik dapat dilihat pada menu data mahasiswa di portal akademik.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "beasiswa",
+    "question": "Bagaimana cara mendaftar beasiswa?",
+    "variants": [
+      "syarat daftar beasiswa",
+      "info beasiswa mahasiswa"
+    ],
+    "answer": "[DATA DEMO] Pendaftaran beasiswa dilakukan melalui portal beasiswa fakultas pada periode yang diumumkan setiap semester.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "surat-aktif",
+    "question": "Bagaimana cara meminta surat keterangan aktif kuliah?",
+    "variants": [
+      "surat aktif mahasiswa",
+      "minta surat keterangan mahasiswa"
+    ],
+    "answer": "[DATA DEMO] Surat keterangan aktif kuliah diajukan melalui portal akademik dan dapat diambil di tata usaha prodi.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "transkrip",
+    "question": "Bagaimana cara mendapatkan transkrip nilai?",
+    "variants": [
+      "cetak transkrip",
+      "minta transkrip akademik"
+    ],
+    "answer": "[DATA DEMO] Transkrip nilai dapat diunduh dari portal akademik atau diajukan cetak resmi ke tata usaha prodi.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "lupa-sandi",
+    "question": "Lupa kata sandi portal akademik, bagaimana?",
+    "variants": [
+      "reset password portal",
+      "tidak bisa login portal akademik"
+    ],
+    "answer": "[DATA DEMO] Gunakan menu lupa kata sandi di halaman login portal akademik, atau hubungi tata usaha prodi bila gagal.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "ujian-susulan",
+    "question": "Bagaimana prosedur ujian susulan?",
+    "variants": [
+      "tidak ikut ujian karena sakit",
+      "daftar ujian susulan"
+    ],
+    "answer": "[DATA DEMO] Ujian susulan diajukan ke dosen pengampu dengan surat keterangan resmi paling lambat tiga hari setelah ujian.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-informatika-2024",
+    "prodi": "Informatika",
+    "angkatan": 2024,
+    "question": "Apa saja mata kuliah semester ini untuk Informatika angkatan 2024?",
+    "variants": [
+      "matkul Informatika angkatan 2024 semester ini",
+      "daftar mata kuliah Informatika 2024",
+      "mata kuliah angkatan 2024 prodi Informatika"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Informatika angkatan 2024 (semester 5): Pemrograman Web Lanjut, Basis Data Terdistribusi, Keamanan Informasi, Pembelajaran Mesin, Rekayasa Perangkat Lunak.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-informatika-2025",
+    "prodi": "Informatika",
+    "angkatan": 2025,
+    "question": "Apa saja mata kuliah semester ini untuk Informatika angkatan 2025?",
+    "variants": [
+      "matkul Informatika angkatan 2025 semester ini",
+      "daftar mata kuliah Informatika 2025",
+      "mata kuliah angkatan 2025 prodi Informatika"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Informatika angkatan 2025 (semester 3): Kecerdasan Buatan, Sistem Operasi, Pemrograman Berbasis Objek, Kompleksitas Algoritma, Jaringan Komputer.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-informatika-2026",
+    "prodi": "Informatika",
+    "angkatan": 2026,
+    "question": "Apa saja mata kuliah semester ini untuk Informatika angkatan 2026?",
+    "variants": [
+      "matkul Informatika angkatan 2026 semester ini",
+      "daftar mata kuliah Informatika 2026",
+      "mata kuliah angkatan 2026 prodi Informatika"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Informatika angkatan 2026 (semester 1): Algoritma dan Pemrograman, Matematika Diskrit, Pengantar Teknologi Informasi, Fisika Dasar, Bahasa Indonesia.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-pti-2024",
+    "prodi": "PTI",
+    "angkatan": 2024,
+    "question": "Apa saja mata kuliah semester ini untuk PTI angkatan 2024?",
+    "variants": [
+      "matkul PTI angkatan 2024 semester ini",
+      "daftar mata kuliah PTI 2024",
+      "mata kuliah angkatan 2024 prodi PTI"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Informatika (PTI) angkatan 2024 (semester 5): Pengembangan Media Pembelajaran, Pemrograman Web, Evaluasi Pembelajaran, Mikrokontroler, Praktik Mengajar Mikro.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-pti-2025",
+    "prodi": "PTI",
+    "angkatan": 2025,
+    "question": "Apa saja mata kuliah semester ini untuk PTI angkatan 2025?",
+    "variants": [
+      "matkul PTI angkatan 2025 semester ini",
+      "daftar mata kuliah PTI 2025",
+      "mata kuliah angkatan 2025 prodi PTI"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Informatika (PTI) angkatan 2025 (semester 3): Pemrograman Berbasis Objek, Sistem Operasi, Basis Data, Strategi Pembelajaran TIK, Jaringan Komputer.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-pti-2026",
+    "prodi": "PTI",
+    "angkatan": 2026,
+    "question": "Apa saja mata kuliah semester ini untuk PTI angkatan 2026?",
+    "variants": [
+      "matkul PTI angkatan 2026 semester ini",
+      "daftar mata kuliah PTI 2026",
+      "mata kuliah angkatan 2026 prodi PTI"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Informatika (PTI) angkatan 2026 (semester 1): Algoritma dan Pemrograman, Pengantar Pendidikan, Matematika Dasar, Fisika Dasar, Bahasa Indonesia.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-pte-2024",
+    "prodi": "PTE",
+    "angkatan": 2024,
+    "question": "Apa saja mata kuliah semester ini untuk PTE angkatan 2024?",
+    "variants": [
+      "matkul PTE angkatan 2024 semester ini",
+      "daftar mata kuliah PTE 2024",
+      "mata kuliah angkatan 2024 prodi PTE"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Elektronika (PTE) angkatan 2024 (semester 5): Mikroprosesor, Elektronika Daya, Kontrol Industri, Media Pembelajaran Teknik, Praktik Mengajar Mikro.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-pte-2025",
+    "prodi": "PTE",
+    "angkatan": 2025,
+    "question": "Apa saja mata kuliah semester ini untuk PTE angkatan 2025?",
+    "variants": [
+      "matkul PTE angkatan 2025 semester ini",
+      "daftar mata kuliah PTE 2025",
+      "mata kuliah angkatan 2025 prodi PTE"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Elektronika (PTE) angkatan 2025 (semester 3): Rangkaian Listrik, Elektronika Analog, Teknik Digital, Strategi Pembelajaran, Pengukuran Listrik.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-pte-2026",
+    "prodi": "PTE",
+    "angkatan": 2026,
+    "question": "Apa saja mata kuliah semester ini untuk PTE angkatan 2026?",
+    "variants": [
+      "matkul PTE angkatan 2026 semester ini",
+      "daftar mata kuliah PTE 2026",
+      "mata kuliah angkatan 2026 prodi PTE"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Elektronika (PTE) angkatan 2026 (semester 1): Matematika Dasar, Fisika Dasar, Pengantar Pendidikan, Gambar Teknik, Bahasa Indonesia.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-trse-2024",
+    "prodi": "TRSE",
+    "angkatan": 2024,
+    "question": "Apa saja mata kuliah semester ini untuk TRSE angkatan 2024?",
+    "variants": [
+      "matkul TRSE angkatan 2024 semester ini",
+      "daftar mata kuliah TRSE 2024",
+      "mata kuliah angkatan 2024 prodi TRSE"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Teknik Rekayasa Sistem Elektronika (TRSE) angkatan 2024 (semester 5): Sistem Tertanam, Internet of Things, Sistem Kendali, Pengolahan Sinyal Digital, Perancangan PCB.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-trse-2025",
+    "prodi": "TRSE",
+    "angkatan": 2025,
+    "question": "Apa saja mata kuliah semester ini untuk TRSE angkatan 2025?",
+    "variants": [
+      "matkul TRSE angkatan 2025 semester ini",
+      "daftar mata kuliah TRSE 2025",
+      "mata kuliah angkatan 2025 prodi TRSE"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Teknik Rekayasa Sistem Elektronika (TRSE) angkatan 2025 (semester 3): Elektronika Analog, Sistem Digital, Sinyal dan Sistem, Mikrokontroler, Instrumentasi Elektronika.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "matkul-trse-2026",
+    "prodi": "TRSE",
+    "angkatan": 2026,
+    "question": "Apa saja mata kuliah semester ini untuk TRSE angkatan 2026?",
+    "variants": [
+      "matkul TRSE angkatan 2026 semester ini",
+      "daftar mata kuliah TRSE 2026",
+      "mata kuliah angkatan 2026 prodi TRSE"
+    ],
+    "answer": "[DATA DEMO] Mata kuliah semester ini untuk Teknik Rekayasa Sistem Elektronika (TRSE) angkatan 2026 (semester 1): Matematika Teknik, Fisika Dasar, Dasar Rangkaian Listrik, Algoritma dan Pemrograman, Bahasa Inggris Teknik.",
+    "source": "Demo FAQ (fiktif)",
+    "status": "verified",
+    "verified_by": "DEMO",
+    "verified_at": "-"
+  },
+  {
+    "id": "draft-contoh",
+    "question": "Pertanyaan draft yang belum diverifikasi",
+    "variants": [],
+    "answer": "Entri ini sengaja berstatus draft: tidak boleh dipakai.",
+    "source": "-",
+    "status": "draft"
+  }
+]
