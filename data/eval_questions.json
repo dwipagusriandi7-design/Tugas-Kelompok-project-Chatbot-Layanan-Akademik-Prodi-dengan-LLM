@@ -1,0 +1,5 @@
+[
+  {"q": "[ISI pertanyaan uji FAQ]", "expected": "faq"},
+  {"q": "[ISI pertanyaan kompleks yang jawabannya ada di dokumen]", "expected": "rag"},
+  {"q": "[ISI pertanyaan di luar topik]", "expected": "refused"}
+]

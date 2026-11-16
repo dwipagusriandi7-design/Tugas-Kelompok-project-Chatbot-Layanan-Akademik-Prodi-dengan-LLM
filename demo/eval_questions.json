@@ -1,0 +1,152 @@
+[
+  {
+    "q": "gimana cara isi krs",
+    "expected": "faq"
+  },
+  {
+    "q": "mau revisi krs bisa kapan",
+    "expected": "faq"
+  },
+  {
+    "q": "prosedur cuti kuliah gimana",
+    "expected": "faq"
+  },
+  {
+    "q": "jam buka admin prodi kapan ya",
+    "expected": "faq"
+  },
+  {
+    "q": "ruang TU prodi dimana",
+    "expected": "faq"
+  },
+  {
+    "q": "apa syarat ambil skripsi",
+    "expected": "faq"
+  },
+  {
+    "q": "siapa dosen PA saya",
+    "expected": "faq"
+  },
+  {
+    "q": "cara daftar beasiswa",
+    "expected": "faq"
+  },
+  {
+    "q": "minta surat keterangan aktif kuliah",
+    "expected": "faq"
+  },
+  {
+    "q": "cetak transkrip nilai gimana",
+    "expected": "faq"
+  },
+  {
+    "q": "lupa password portal akademik",
+    "expected": "faq"
+  },
+  {
+    "q": "Apa saja tahapan tugas akhir dari awal sampai sidang?",
+    "expected": "rag"
+  },
+  {
+    "q": "Siapa saja yang menguji sidang akhir dan bagaimana komposisi nilainya?",
+    "expected": "rag"
+  },
+  {
+    "q": "Berapa lama waktu revisi setelah sidang akhir dan apa yang dikumpulkan?",
+    "expected": "rag"
+  },
+  {
+    "q": "Apa syarat mengikuti seminar proposal?",
+    "expected": "rag"
+  },
+  {
+    "q": "Apa tujuan praktik kerja lapangan?",
+    "expected": "rag"
+  },
+  {
+    "q": "Berapa lama PKL dilaksanakan dan siapa pembimbingnya?",
+    "expected": "rag"
+  },
+  {
+    "q": "Bagaimana komponen penilaian mata kuliah?",
+    "expected": "rag"
+  },
+  {
+    "q": "Apa aturan mata kuliah prasyarat?",
+    "expected": "rag"
+  },
+  {
+    "q": "Siapa presiden Indonesia?",
+    "expected": "refused"
+  },
+  {
+    "q": "Apa itu machine learning?",
+    "expected": "refused"
+  },
+  {
+    "q": "Resep nasi goreng enak",
+    "expected": "refused"
+  },
+  {
+    "q": "halo",
+    "expected": "refused"
+  },
+  {
+    "q": "Berapa biaya UKT semester ini?",
+    "expected": "refused",
+    "needs_llm": true
+  },
+  {
+    "q": "Kapan jadwal wisuda?",
+    "expected": "refused",
+    "needs_llm": true
+  },
+  {
+    "q": "mata kuliah informatika angkatan 2025 semester ini apa aja",
+    "expected": "faq"
+  },
+  {
+    "q": "matkul TRSE 2026",
+    "expected": "faq"
+  },
+  {
+    "q": "Pendidikan Teknik Informatika angkatan 2024 mata kuliahnya apa",
+    "expected": "faq"
+  },
+  {
+    "q": "mata kuliah PTE angkatan 2025 apa saja",
+    "expected": "faq"
+  },
+  {
+    "q": "mata kuliah semester ini apa saja?",
+    "expected": "clarify"
+  },
+  {
+    "q": "matkul informatika semester ini apa aja",
+    "expected": "clarify"
+  },
+  {
+    "q": "matkul angkatan 2025 apa saja",
+    "expected": "clarify"
+  },
+  {
+    "q": "matkul PTI angkatan 2023",
+    "expected": "refused"
+  },
+  {
+    "q": "Berapa SKS dan prasyarat Sistem Operasi untuk Informatika?",
+    "expected": "rag"
+  },
+  {
+    "q": "Bagaimana penilaian mata kuliah Kecerdasan Buatan di Informatika?",
+    "expected": "rag"
+  },
+  {
+    "q": "Apa topik Sistem Operasi di PTI?",
+    "expected": "rag"
+  },
+  {
+    "q": "Berapa SKS Sistem Operasi?",
+    "expected": "clarify"
+  }
+]

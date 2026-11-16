@@ -1,0 +1,56 @@
+﻿no,pertanyaan,harapan,hasil,skor,status,jawaban
+1,gimana cara isi krs,faq,faq,1.0,OK,[DATA DEMO] KRS diisi melalui portal akademik pada periode pengisian KRS yang tercantum di kalender akademik.
+2,mau revisi krs bisa kapan,faq,faq,1.0,OK,[DATA DEMO] Perubahan KRS dilakukan pada masa revisi melalui portal akademik dan perlu persetujuan pembimbing akademik.
+3,prosedur cuti kuliah gimana,faq,faq,1.0,OK,[DATA DEMO] Cuti akademik diajukan melalui portal akademik sebelum batas waktu yang ditetapkan kalender akademik.
+4,jam buka admin prodi kapan ya,faq,faq,0.608,OK,[DATA DEMO] Layanan administrasi prodi buka Senin sampai Jumat pukul 08.00-15.00.
+5,ruang TU prodi dimana,faq,faq,0.882,OK,[DATA DEMO] Ruang tata usaha prodi berada di Gedung Demo lantai 2.
+6,apa syarat ambil skripsi,faq,faq,0.88,OK,"[DATA DEMO] Syarat mengambil tugas akhir mengikuti Pedoman Tugas Akhir prodi, termasuk jumlah SKS minimum yang ditetapkan."
+7,siapa dosen PA saya,faq,faq,1.0,OK,[DATA DEMO] Nama dosen pembimbing akademik dapat dilihat pada menu data mahasiswa di portal akademik.
+8,cara daftar beasiswa,faq,faq,1.0,OK,[DATA DEMO] Pendaftaran beasiswa dilakukan melalui portal beasiswa fakultas pada periode yang diumumkan setiap semester.
+9,minta surat keterangan aktif kuliah,faq,faq,1.0,OK,[DATA DEMO] Surat keterangan aktif kuliah diajukan melalui portal akademik dan dapat diambil di tata usaha prodi.
+10,cetak transkrip nilai gimana,faq,faq,0.76,OK,[DATA DEMO] Transkrip nilai dapat diunduh dari portal akademik atau diajukan cetak resmi ke tata usaha prodi.
+11,lupa password portal akademik,faq,faq,0.81,OK,"[DATA DEMO] Gunakan menu lupa kata sandi di halaman login portal akademik, atau hubungi tata usaha prodi bila gagal."
+12,Apa saja tahapan tugas akhir dari awal sampai sidang?,rag,rag,0.425,OK,"Tahapan tugas akhir dilaksanakan secara berurutan sebagai berikut:
+
+1. Pengajuan judul [S1].
+2. Penetapan dosen pembimbing [S1].
+3. Seminar proposal [S1].
+4. Seminar hasil [S1].
+5. Sidang akhir [S1].
+
+Mahasiswa tidak diperbolehkan melompati tahapan tersebut, dan seminar hasil harus diselesaikan sebelum mendaftar sidang akhir [S1]."
+13,Siapa saja yang menguji sidang akhir dan bagaimana komposisi nilainya?,rag,rag,0.339,OK,"Sidang akhir diuji oleh dosen pembimbing utama dan dua dosen penguji [S1]. Nilai sidang akhir memiliki bobot sebesar 40 persen dari total nilai tugas akhir, di mana nilai tersebut diberikan bersama oleh pembimbing utama dan kedua penguji [S2]."
+14,Berapa lama waktu revisi setelah sidang akhir dan apa yang dikumpulkan?,rag,rag,0.43,OK,Mahasiswa memiliki waktu revisi selama empat belas hari kalender setelah sidang akhir [S1]. Naskah final yang telah disahkan harus dikumpulkan dalam bentuk file PDF ke tata usaha prodi bersama dengan lembar pengesahan [S1].
+15,Apa syarat mengikuti seminar proposal?,rag,rag,0.428,OK,"Syarat untuk mengikuti seminar proposal adalah sebagai berikut:
+1. Judul telah disetujui oleh koordinator [S1].
+2. Mahasiswa telah menjalani minimal tiga kali bimbingan yang tercatat pada kartu bimbingan [S1].
+3. Naskah proposal telah disetujui oleh pembimbing utama [S1].
+4. Naskah proposal dikumpulkan paling lambat satu minggu sebelum jadwal seminar [S1]."
+16,Apa tujuan praktik kerja lapangan?,rag,rag,0.537,OK,"Praktik kerja lapangan (PKL) bertujuan untuk memberikan pengalaman kerja nyata di dunia industri, melatih keterampilan profesional, serta mempertemukan teori perkuliahan dengan praktik di instansi mitra [S1]."
+17,Berapa lama PKL dilaksanakan dan siapa pembimbingnya?,rag,rag,0.302,OK,Praktik Kerja Lapangan (PKL) dilaksanakan selama satu semester penuh atau sekitar enam belas minggu [S1]. Setiap mahasiswa akan didampingi oleh satu pembimbing lapangan dari instansi dan satu dosen pembimbing dari program studi [S1].
+18,Bagaimana komponen penilaian mata kuliah?,rag,rag,0.3,OK,"Komponen penilaian mata kuliah terdiri dari:
+* Kehadiran: 10 persen [S1]
+* Tugas: 30 persen [S1]
+* Ujian Tengah Semester: 30 persen [S1]
+* Ujian Akhir Semester: 30 persen [S1]
+
+Selain itu, mahasiswa wajib memiliki kehadiran minimal tujuh puluh lima persen agar diperkenankan mengikuti ujian akhir [S1]."
+19,Apa aturan mata kuliah prasyarat?,rag,rag,0.387,OK,Mahasiswa hanya diperbolehkan mengambil mata kuliah lanjutan jika telah lulus mata kuliah prasyarat dengan nilai minimal C [S1]. Daftar mata kuliah prasyarat tersebut dapat dilihat pada buku kurikulum [S1].
+20,Siapa presiden Indonesia?,refused,refused,0.0,OK,"Mohon maaf, informasi tersebut belum tersedia di dokumen resmi program studi. Silakan hubungi admin program studi untuk kepastian."
+21,Apa itu machine learning?,refused,refused,0.0,OK,"Mohon maaf, informasi tersebut belum tersedia di dokumen resmi program studi. Silakan hubungi admin program studi untuk kepastian."
+22,Resep nasi goreng enak,refused,refused,0.0,OK,"Mohon maaf, informasi tersebut belum tersedia di dokumen resmi program studi. Silakan hubungi admin program studi untuk kepastian."
+23,halo,refused,refused,0.0,OK,"Mohon maaf, informasi tersebut belum tersedia di dokumen resmi program studi. Silakan hubungi admin program studi untuk kepastian."
+24,Berapa biaya UKT semester ini?,refused,refused,0.17,OK,"Mohon maaf, informasi tersebut belum tersedia di dokumen resmi program studi. Silakan hubungi admin program studi untuk kepastian."
+25,Kapan jadwal wisuda?,refused,refused,0.151,OK,"Mohon maaf, informasi tersebut belum tersedia di dokumen resmi program studi. Silakan hubungi admin program studi untuk kepastian."
+26,mata kuliah informatika angkatan 2025 semester ini apa aja,faq,faq,0.908,OK,"[DATA DEMO] Mata kuliah semester ini untuk Informatika angkatan 2025 (semester 3): Kecerdasan Buatan, Sistem Operasi, Pemrograman Berbasis Objek, Kompleksitas Algoritma, Jaringan Komputer."
+27,matkul TRSE 2026,faq,faq,0.779,OK,"[DATA DEMO] Mata kuliah semester ini untuk Teknik Rekayasa Sistem Elektronika (TRSE) angkatan 2026 (semester 1): Matematika Teknik, Fisika Dasar, Dasar Rangkaian Listrik, Algoritma dan Pemrograman, Bahasa Inggris Teknik."
+28,Pendidikan Teknik Informatika angkatan 2024 mata kuliahnya apa,faq,faq,0.707,OK,"[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Informatika (PTI) angkatan 2024 (semester 5): Pengembangan Media Pembelajaran, Pemrograman Web, Evaluasi Pembelajaran, Mikrokontroler, Praktik Mengajar Mikro."
+29,mata kuliah PTE angkatan 2025 apa saja,faq,faq,0.735,OK,"[DATA DEMO] Mata kuliah semester ini untuk Pendidikan Teknik Elektronika (PTE) angkatan 2025 (semester 3): Rangkaian Listrik, Elektronika Analog, Teknik Digital, Strategi Pembelajaran, Pengukuran Listrik."
+30,mata kuliah semester ini apa saja?,clarify,clarify,0.0,OK,"Pertanyaan ini jawabannya berbeda untuk tiap program studi (Informatika, PTI, PTE, TRSE) dan angkatan (2024, 2025, 2026). Mohon sebutkan dulu, contoh: ""mata kuliah Informatika angkatan 2025""."
+31,matkul informatika semester ini apa aja,clarify,clarify,0.0,OK,"Pertanyaan ini jawabannya berbeda untuk tiap angkatan (2024, 2025, 2026). Mohon sebutkan dulu, contoh: ""mata kuliah Informatika angkatan 2025""."
+32,matkul angkatan 2025 apa saja,clarify,clarify,0.0,OK,"Pertanyaan ini jawabannya berbeda untuk tiap program studi (Informatika, PTI, PTE, TRSE). Mohon sebutkan dulu, contoh: ""mata kuliah Informatika angkatan 2025""."
+33,matkul PTI angkatan 2023,refused,refused,0.0,OK,"Data untuk angkatan 2023 belum tersedia. Angkatan yang tersedia: 2024, 2025, 2026."
+34,Berapa SKS dan prasyarat Sistem Operasi untuk Informatika?,rag,rag,0.471,OK,Mata kuliah Sistem Operasi pada program studi Informatika memiliki bobot 3 SKS dengan prasyarat mata kuliah Algoritma dan Pemrograman [S1].
+35,Bagaimana penilaian mata kuliah Kecerdasan Buatan di Informatika?,rag,rag,0.466,OK,"Penilaian mata kuliah Kecerdasan Buatan terdiri dari tugas praktikum sebesar 30 persen, ujian tengah semester sebesar 30 persen, dan proyek kelompok sebesar 40 persen [S2]."
+36,Apa topik Sistem Operasi di PTI?,rag,rag,0.513,OK,"Topik utama mata kuliah Sistem Operasi pada program studi Pendidikan Teknik Informatika (PTI) meliputi konsep proses, penjadwalan CPU, serta penggunaan Linux dasar [S2]."
+37,Berapa SKS Sistem Operasi?,clarify,clarify,0.0,OK,"Pertanyaan ini jawabannya berbeda untuk tiap program studi (Informatika, PTI, PTE, TRSE). Mohon sebutkan dulu, contoh: ""mata kuliah Informatika angkatan 2025""."
